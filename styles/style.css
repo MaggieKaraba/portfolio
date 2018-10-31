@@ -2,6 +2,7 @@ html{
   font-size: 20px;
   font-family: 'Share Tech Mono', monospace;
 }
+
 body{
   width: auto;
   height: auto;
@@ -9,6 +10,7 @@ body{
   background-color: white;	/*#9370DB*/
   padding: 30px 20px 20px 20px;
   border: 2px;
+  background-image: linear-gradient(to right,white,white, #D3D3D3, white);
 }
 h1{
   font-size: 60px;
@@ -24,7 +26,7 @@ img {
   margin: 20px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-  border-radius: 20%;
+  border-radius: 5%;
 }
 ul{
   width: 100%;
