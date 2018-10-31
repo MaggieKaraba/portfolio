@@ -1,0 +1,142 @@
+html{
+  font-size: 20px;
+  font-family: 'Share Tech Mono', monospace;
+}
+body{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;	/*#9370DB*/
+  padding: 30px 20px 20px 20px;
+  border: 2px;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #808080;
+  /*text-shadow: 3px 3px 1px black;*/
+}
+
+img {
+  display: block;
+  margin: 20px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  border-radius: 20%;
+}
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0 2px;
+  padding:0;
+  overflow: hidden;
+  background-color:	#D3D3D3;
+  display: table
+
+}
+
+li{
+  display:inline-block;
+  padding: 5px 5px;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  word-spacing: 400px;
+
+}
+li a:hover:not(.active) {
+    background-color: yellow;
+    opacity: 0.5;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+.active {
+    background-color: white;
+}
+.right{
+  position: absolute;
+   left: 100px;
+   width: 700px;
+   padding: 20px;
+   margin-top: 200px;
+   color: #808080;
+   /*background-color: yellow;/*#EE82EE*/
+   /*opacity: 0.5;
+   filter: alpha(opacity=10); /* For IE8 and earlier */
+   /*border-radius: 8px;*/
+}
+.right p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space:pre-wrap;; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .14em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.social{
+  width: 100%;
+  margin-top: 600px;
+  align-items: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: gray;
+  color: white;
+}
+
+.fa-twitter {
+  background: gray;
+  color: white;
+}
+
+.fa-google {
+  background: gray;
+  color: white;
+}
+
+.fa-linkedin {
+  background: gray;
+  color: white;
+}
+
+.fa-youtube {
+  background: gray;
+  color: white;
+}
+
+.fa-instagram {
+  background: gray;
+  color: white;
+}
